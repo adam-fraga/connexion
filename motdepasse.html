@@ -1,0 +1,45 @@
+<style> html, body {
+  height: 100%;         /*Désolé  pour ce passage mais le comportement de flexbox merde sur ma dernière
+                        page donc je préfère utiliser cette solution au vu des travaux réalisés :/ merci 
+                        oh grand Algorithme de correction de ta comprehension */
+}</style>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="connexion.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a95f1c7873.js" crossorigin="anonymous"></script>
+    <title>Password</title>
+  </head>
+  <body class="container" >
+      <!-- HEADER -->
+      <header class="top">
+        <h1 class="top_title" ><i class="fas fa-spider"></i>Welcome</h1>
+        <div class=icon>
+            <a href="inscription.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-user-plus">Register</i></a>
+            <a href="connexion.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-sign-in-alt">Log in</i></a>
+        </div>
+    </header>
+    <!-- MAIN FORM -->
+    <main class="mid">
+    
+      <form class="form_pass" action="post" method="post">
+        <label for="mail">Enter your mail adress</label>
+        <input class="recover_pass" type="email" id="mail" name="mail" placeholder="name@example.com" />
+       <button type="submit">Send new password by mail</button>
+      </form>
+    </main>
+    <!-- FOOTER -->
+    <footer class="bot">
+        <a href="#" target="_blank" rel="noopener noreferrer">Conditions d'utilisation</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Mentions légales</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Droits d'auteur</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Cookies</a>
+    </footer>
+  </body>
+</html>

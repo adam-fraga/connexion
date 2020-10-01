@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a95f1c7873.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="connexion.css" />
+    <title>Inscription</title>
+  </head>
+  <!-- PAGE CONTAINER -->
+  <body class="container" >
+    <!-- HEADER-->
+    <header class="top">
+      <h1 class="top_title" ><i class="fas fa-spider"></i>Welcome</h1>
+      <div class=icon>
+          <a href="connexion.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-sign-in-alt">Login Page</i></a>
+          <a href="motdepasse.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-key">Forgot your password</i></a>
+      </div>
+  </header>
+    <!-- MAIN SECTION FORMULAIRE -->
+    <main class="mid">
+      
+          <form class="form_inscription1" action="" method="post">
+            <h2 class="title" >Register</h2>
+            <label for="login">User name</label>
+            <input type="text" id="login" name="login" placeholder="Name"/>
+
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass" placeholder="Password" />
+
+            <label for="pass">Confirm password</label>
+            <input type="password" id="pass"  placeholder="Confirm Password" />
+
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname"  placeholder="Last Name" />
+          
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name"  />
+
+            <label for="date">Date of birth</label>
+            <input type="date" id="date" name="date"  placeholder="" />
+            <button type="submit">Send Normal</button>
+          </form>
+          
+          <form class="form_inscription2">
+            <h2 class="title" >Be Premium</h2>
+
+            <label for="login">User name</label>
+            <input type="text" id="login" name="login"   placeholder="User Name" />
+
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass" placeholder="Password"/>
+            <label for="confpass">Confirm password</label>
+            <input type="password" id="confpass" placeholder="Confirm Password" />
+
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname"  placeholder="Last Name"/>
+          
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name" />
+
+            <label for="date">Date of birth</label>
+            <input type="date" id="date" name="date"/>
+
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="mail"  placeholder="name@example.com"/>
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" placeholder="06 06 06 06 06" />
+            
+            <legend><p>Gender</p>  
+              <label for="homme">Male
+              <input type="radio" id="homme" name="sexe" value="Homme"  /></label>
+              <label for="femme">Female
+              <input type="radio" id="femme" name="sexe" value="Femme"  /></label>
+            </legend>
+
+            <label for="hobbies">Hobbies</label>
+            <select name="hobbies" id="hobbies">
+              <option value="...">Sleeping</option>
+              <option value="...">Eating</option>
+              <option value="diplomeKO">CODING!!!!</option>
+            </select>
+
+            <label for="hobbies">School tricks</label>
+            <select name="hobbies" id="hobbies">
+              <option value="on">We</option>
+              <option value="s'en">Dont'</option>
+              <option value="fout">Care</option>
+              <option value="fout">About</option>
+              <option value="fout">School</option>
+            </select>
+
+          <label for="comment">Presentation</label>
+          <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Your comment or presentation..."></textarea>
+           <button type="submit">Send Premium</button>
+
+        </form>
+          
+
+    </main>
+    <!-- FOOTER -->
+    <footer class="bot">
+      <a href="#" target="_blank" rel="noopener noreferrer">Conditions d'utilisation</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Mentions légales</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Droits d'auteur</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Cookies</a>
+    </footer>
+  </body>
+</html>

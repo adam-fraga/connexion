@@ -1,0 +1,64 @@
+<!-- Descriptif du projet
+Tous les sites qui ont une base d’utilisateurs ont besoin de pages
+permettant de créer un compte, se connecter et redéfinir son mot de passe.
+Vous devez donc créer ces trois pages : la première contient un formulaire
+avec login, mot de passe et un bouton de validation En bas de ce
+formulaire se trouve un lien qui renvoie vers la page de création de compte
+et la redéfinition de mot de passe.
+La deuxième page doit avoir un formulaire complet : login (obligatoire), mot
+de passe et confirmation du mot de passe (obligatoire), date de naissance
+formatée, nom, prénom, adresse email (obligatoire et correctement
+formatée), sexe (obligatoire, choix Homme/Femme), niveau d’étude
+(obligatoire, dans une liste), numéro de téléphone, une présentation sur
+plusieurs lignes, un choix multiple de hobbies et un bouton de validation qui
+ramène sur la page de connexion. Tous les champs doivent avoir des
+labels. Enfin sur la page de mot de passe oublié, il suffit de renseigner son
+adresse email. Toutes les pages doivent utiliser le même css.
+De beaux formulaires avec des inputs personnalisés sont toujours plus
+agréables pour l’utilisateur -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="connexion.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a95f1c7873.js" crossorigin="anonymous"></script>
+    <title>Connexion</title>
+  </head>
+  <body class="container" >
+      <!-- HEADER -->
+    <header class="top">
+        <h1 class="top_title"><i class="fas fa-spider"></i>Welcome</h1>
+        <div class=icon>
+            <a href="inscription.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-user-plus">Register</i></a>
+            <a href="motdepasse.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-key">Forgot your password</i></a>
+        </div>
+    </header>
+    <!-- MAIN FORM -->
+    <main class="mid">
+      <form class="form_connexion" action="post" method="post">
+        <h2 class="title" >Log in!</h2>
+            <label for="login">User</label>
+            <input type="text" name="user_login" id="login" placeholder=" User Name"/>
+
+            <label for="pass">Pass</label>
+            <input type="password" name="password" id="pass"placeholder="Password"/>
+   
+            <button type="submit">Connexion</button>
+
+            <div class="content_link" >
+            <a href="inscription.html" target="_blank" rel="noopener noreferrer">Create an account</a>
+            <a href="motdepasse.html" target="_blank" rel="noopener noreferrer">Forgot your password?</a>
+          </div>
+      </form>
+    </main>
+    <!-- FOOTER -->
+    <footer class="bot">
+      <a href="#" target="_blank" rel="noopener noreferrer">Conditions d'utilisation</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Mentions légales</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Droits d'auteur</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Cookies</a>
+    </footer>
+  </body>
+</html>
